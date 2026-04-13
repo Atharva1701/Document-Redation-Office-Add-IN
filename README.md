@@ -167,16 +167,3 @@ A sample document (`Document-To-Be-Redacted.docx`) is included in the repository
 
 ---
 
-## Building for Production
-
-```bash
-npm run build
-```
-
-Output is written to `dist/`. Update the `manifest.xml` `<SourceLocation>` to point to your production host before distributing.
-
----
-
-## License
-
-This project is provided as a private submission. All rights reserved.
