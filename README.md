@@ -160,7 +160,7 @@ Reference: [Word JavaScript API requirement sets](https://learn.microsoft.com/en
 
 ## Testing
 
-A sample document (`Document-To-Be-Redacted.docx`) is included in the repository root and contains representative instances of all four sensitive data types. Use it to verify end-to-end behaviour before deploying against other documents.
+You can test this add-in on your documents (.docx) files.
 
 > **Note:** The redaction logic is document-agnostic. Ensure your patterns cover the formats present in any document you intend to process.
 
