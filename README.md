@@ -69,7 +69,7 @@ brew install mkcert
 mkcert -install
 
 # Generate certs in the project root
-cd office-challenge
+cd <your-project-directory>
 mkcert localhost
 ```
 
@@ -82,7 +82,7 @@ This produces `localhost.pem` and `localhost-key.pem`, which are referenced by `
 ```bash
 # 1. Clone the repository
 git clone <your-repo-url>
-cd office-challenge
+cd <your-project-name>
 
 # 2. Install dependencies
 npm install
