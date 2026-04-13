@@ -46,8 +46,6 @@ office-challenge/
 │   │   ├── taskpane.html          # Add-in task-pane UI
 │   │   ├── taskpane.ts            # Task-pane controller (Office.onReady, event wiring)
 │   │   └── taskpane.css           # Task-pane styles
-│   └── utils/
-│       └── redactor.ts            # Alternate RedactionEngine class (utility)
 ├── tsconfig.json
 ├── vite.config.ts
 └── package.json
