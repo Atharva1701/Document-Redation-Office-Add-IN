@@ -32,8 +32,7 @@ A Microsoft Word task-pane add-in that automatically redacts sensitive informati
 ## Project Structure
 
 ```
-office-challenge/
-├── manifest.xml                   # Office Add-in manifest
+├── manifest.xml                   
 ├── public/
 │   ├── icon-32.png
 │   └── icon-64.png
