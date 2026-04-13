@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Document Redaction</title>
+
+  <script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js"></script>
+  <link rel="stylesheet" href="./taskpane.css" />
+</head>
+<body>
+  <div class="app">
+    <div class="card header">
+      <div class="title">Document Redaction</div>
+      <div class="subtitle">Redact sensitive data and add a confidentiality header.</div>
+    </div>
+
+    <div class="card">
+      <div class="sectionTitle">Redacts</div>
+      <div class="list">
+        <div class="item">Email addresses</div>
+        <div class="item">Phone numbers</div>
+        <div class="item">Social Security numbers</div>
+        <div class="item">Credit card numbers</div>
+      </div>
+    </div>
+
+    <button id="redactBtn" class="primary">Redact document</button>
+
+    <div id="status" class="status"></div>
+
+    <div id="summary" class="card hidden">
+      <div class="sectionTitle">Summary</div>
+      <div class="kv"><span>Emails</span><span id="emails">0</span></div>
+      <div class="kv"><span>Phones</span><span id="phones">0</span></div>
+      <div class="kv"><span>SSNs</span><span id="ssns">0</span></div>
+      <div class="kv"><span>Credit Cards</span><span id="cards">0</span></div>
+      <div class="note" id="note"></div>
+    </div>
+
+    <div class="footnote">Always review the final document before sharing.</div>
+  </div>
+
+  <script type="module" src="./taskpane.ts"></script>
+</body>
+</html>
